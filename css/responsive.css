@@ -1,0 +1,59 @@
+@media screen and (max-width:640px) {
+	.carousel-item h2{
+		font-size: 60px;
+	}
+	.carousel-item h3{
+		font-size: 20px;
+	}
+	.carousel-item h4{
+		font-size: 18px;
+	}
+	.aboutIcon{
+		max-width: 292px;
+		margin: 15px auto;
+	}
+	.images{
+		max-width: 292px;
+		margin: 15px auto;
+	}
+	.element-item{
+		width: 50%;
+	}
+	.pricingBox{
+		width: 292px;
+	}
+	.counterBox{
+		max-width: 292px;
+		margin: 15px auto;
+	}
+	.contact{
+		width: 292px;
+		margin: 15px auto;
+	}
+	.footerText p{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width:480px) {
+	.element-item{
+		width: 100%;
+	}
+	.footerText p {
+		font-size: 10px;
+	}
+	.footerIcon a{
+		font-size: 15px;
+		margin-left: -10px;
+	}
+}
+@media screen and (max-width:480px) {
+	.carousel-item h2{
+		font-size: 40px;
+	}
+	.carousel-item h3{
+		font-size: 18px;
+	}
+	.carousel-item h4{
+		font-size: 16px;
+	}
+}

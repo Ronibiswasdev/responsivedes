@@ -1,0 +1,485 @@
+
+/* font family */
+@font-face{
+	src: url(../fonts/Roboto-Light.ttf);
+	font-family: Rl;
+}
+@font-face{
+	src: url(../fonts/Roboto-Bold.ttf);
+	font-family: Rb;
+}
+/* Start menu */
+.mr-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+    margin-right: 0 !important;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.navbar-toggler{
+	margin-top: 40px;
+}
+.logo img{
+	width: 130px;
+}
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #87d37c;
+} 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #87d37c;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+	color: #fff;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+	background: transparent;
+}
+.dropdown-menu{
+	padding: 0 0;
+	border: none;
+}
+.dropdown-menu a{
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+.dropdown-menu a:last-child{
+	border-bottom: 0;
+}
+.dropdown-item:focus, 
+.dropdown-item:hover {
+    color: #87d37c;
+    text-decoration: none;
+    background-color: transparent;
+}
+/* End menu */
+/* slider section */
+#sliderSection{
+	background: url(../img/bg.jpg);
+}
+.sliderOverlay{
+	width: 100%;
+	background: rgba(0,0,0, 0.3);
+}
+.carousel-item{
+	padding: 180px 0;
+	color: #fff;
+	font-family: Rb;
+}
+.carousel-item h3{
+	font-size: 40px;
+}
+.carousel-item h2{
+	font-size: 100px;
+	border: 2px solid #fff;
+	max-width: 670px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.carousel-item span{
+	color: #87d37c;
+}
+.carousel-item h4{
+	font-size: 36px;
+}
+.carousel-indicators li{
+	background-color: #fff;
+}
+.carousel-indicators .active{
+	background-color: #87d37c;
+}
+/* slider section */
+/* About section */
+#aboutSection{
+	color: #030303;
+	padding: 110px 0;
+}
+.title h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 36px;
+}
+.title p{
+	font-size: 16px;
+	max-width: 700px;
+	color: #262627;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.aboutContant{}
+.aboutIcon i{
+	font-size: 45px;
+	margin-bottom: 18px;
+	transition: .5s;
+}
+.aboutIcon h2{
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: .5s;
+}
+.aboutIcon p{
+	font-size: 14px;
+	color: #040404;
+}
+.aboutIcon:hover i,
+.aboutIcon:hover h2{
+	color: #87d37c;
+}
+.aboutIcon{
+	margin-bottom: 30px;
+}
+.aboutIcon{
+	margin-bottom: 30px;
+}
+/* About section */
+/* Service section */
+#serviceSection{
+	color: #040404;
+	padding: 95px 0;
+	background: #e1e1e1;
+}
+.images img{
+	width: 100%;
+}
+.images{
+	position: relative;
+	overflow: hidden;
+}
+.imagesOverlay{
+	position: absolute;
+	background: rgba(0,0,0, 0.5);
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	transition: 0.5s;
+}
+.images:hover .imagesOverlay{
+	top: 0;
+}
+.imagesIcon{
+	position: absolute;
+	bottom: -100%;
+	left: 33%;
+	transition: 0.5s;
+}
+.imagesIcon i{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	font-size: 15px;
+	line-height: 40px;
+	color: #fff;
+	transition: 0.5s;
+}
+.images:hover .imagesIcon{
+	bottom: 40%;
+}
+.imagesIcon i:hover{
+	background: #87d37c;
+	border: 1px solid #87d37c;
+}
+.images{
+	margin-bottom: 30px;
+}
+/* Service section */
+/* Protfolio section */
+
+#protfolioSection{
+	color: #040404;
+	padding: 95px 0;
+}
+* { box-sizing: border-box; }
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #000;
+  border: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #87d37c;
+  color: #fff;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #87d37c;
+}
+
+.button.is-checked {
+  color: white;
+}
+
+.button-group .button {
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.element-item {
+  position: relative;
+  float: left;
+  color: #262524;
+  width: 33%;
+  border: 12px solid #fff;
+  overflow: hidden;
+}
+.element-item img{
+	width: 100%;
+}
+.isotopeOverlay{
+	position: absolute;
+	background: rgba(0,0,0, .5);
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	transition: .5s;
+}
+.element-item:hover .isotopeOverlay{
+	top: 0;
+}
+.isotopeOverlay h2{
+	text-transform: uppercase;
+	color: #87d37c;
+	font-family: Rb;
+	margin-top: 135px;
+}
+/* Protfolio section */
+/* Pricing section */
+#pricingSection{
+	padding: 95px 0;
+}
+.pricingBox{
+	background: #39393a;
+	width: 245px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 20px;
+	transition: .5s;
+}
+.pricingTop{
+	width: 135px;
+	height: 135px;
+	border: 5px solid #fff;
+	border-radius: 100%;
+	margin: 0 auto;
+	transition: .5s;
+}
+.pricingTop p{
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.pricingTop sup{
+	font-size: 15px;
+	top: -15px;
+	font-weight: bold;
+}
+.pricingTop em{
+	font-size: 30px;
+}
+.pricingTop span{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.pricingBox ul{
+	padding: 0;
+}
+.pricingBox ul li{
+	max-width: 125px;
+	margin: 0 auto;
+	border-bottom: 1px solid #fff;
+	list-style: none;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-size: 14px;
+	padding: 5px 0;
+}
+.btn{
+	background: #fff;
+	color: #39393a;
+	text-transform: uppercase;
+	border-radius: 0;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 20px;
+	transition: .5s;
+}
+.pricingBox:hover{
+	background: #87d37c;
+	color: #fff;
+}
+.pricingBox:hover .pricingTop{
+	background: #fff;
+	color: #87d37c;
+}
+.pricingBox:hover .btn{
+	background: #fff;
+	color: #87d37c;
+}
+.pricingBox{
+	margin: auto;
+	margin-bottom: 30px;
+}
+/* Pricing section */
+/* Counterup section */
+#counterSection{
+	background: url(../img/count.jpg);
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+.countOverlay{
+	background: rgba(0,0,0, .5);
+	width: 100%;
+}
+.counte{
+	padding: 100px 0;
+}
+.counterBox{
+	border: 1px solid #383432;
+	color: #fff;
+	padding: 15px 0;
+	background: rgba(0,0,0, .7);
+}
+.counterBox span{
+	font-size: 30px;
+}
+.counterBox h3{
+	font-size: 18px;
+	font-weight: bold;
+}
+.counterBox{
+	margin-bottom: 30px;
+}
+/* Counterup section */
+/* Contact section */
+#contactSection{
+	padding: 95px 0;
+}
+.logo{
+	font-size: 50px;
+	margin-bottom: 5px;
+	transition: .5s;
+}
+.contact h2{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: .5s;
+}
+.contact p{
+	font-size: 14px;
+}
+.contact:hover .logo{
+	color: #87d37c;
+}
+.contact:hover h2{
+	color: #87d37c;
+}
+.contact{
+	margin-bottom: 30px;
+}
+/* Contact section */
+/* Contact form section */
+#contactForm{
+	padding-top: 95px;
+	padding-bottom: 20px;
+	background: #f5f5f5;
+	box-sizing: border-box;
+}
+form [type="text"],
+form [type="email"]{
+	width: 100%;
+	padding: 5px 5px;
+	border: 0;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+textarea{
+	width: 100%;
+	height: 100px;
+	font-size: 18px;
+	border: 0;
+	padding: 10px;
+}
+form [type="submit"]{
+	font-size: 14px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	border: 0;
+	color: #fff;
+	background: #87d37c;
+	font-weight: bold;
+	transition: .5s;
+}
+form [type="submit"]:hover{
+	color: #fff;
+	background: #313131;	
+}
+/* Contact form section */
+/* Scroll section */
+.scrollUp{
+	width: 50px;
+	height: 45px;
+	background: #87d37c;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	position: fixed;
+	bottom: 70px;
+	right: 0px;
+}
+/* Scroll section */
+/* Footer section */
+#footerSection{
+	background: #000;
+	padding: 20px 0;
+	color: #fff;
+}
+.footerText p{
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.footerIcon a{
+	font-size: 20px;
+	padding: 0 10px;
+	color: #fff;
+}
+.footerIcon i{
+	transition: .5s;
+}
+.footerIcon i:hover{
+	color: #87d37c;
+}
+/* Footer section */
+/* for menu-bg change */
+.menuBg{
+	background: rgba(0,0,0, .7);
+}
+/* for menu-bg change */
